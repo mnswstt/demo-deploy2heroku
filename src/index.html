@@ -9,23 +9,131 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">Arale@ALC</a>
+  <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-8 col-md-2 py-4">
+                <h4 class="text-white">About us</h4>
+                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#story">
+                  Story
+                </button>
+                <br/>
+                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#mission">
+                  Mission
+                </button>
+                <br/>
+                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#vision">
+                  Vision
+                </button>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white h4">Contact</h4>
+                <p>
+                  <div class="text-white">
+                    Business Name: A.L. Cosmetics<br/>
+                    Business Address: 555 Maliwan Road, Khon Kaen, Thailand<br/>
+                    Website: https://demo-arale.herokuapp.com<br/>
+                    Email: arale@ALC.com<br/>
+                    Tel: 099-1593678<br/>
+                  </div>
+                </p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                  <h4 class="text-white">Follow us</h4>
+                  <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class="text-white">Follow on Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white">Follow on Facebook</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="story">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Story</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+              <!-- Modal body -->
+            <div class="modal-body">
+              <p>
+                  With inspiration and ideas that want to imbue every lovely woman&#39;s beauty with
+                sparks of creativity and determination to develop good quality products at a comfortable price
+                for every woman who needs to be beautiful in daily. We believe that we truly understand the
+                needs of women. Arale therefore brings the needs of women as a set of products which has
+                been developed for more than 10 types, provided quality, performanced and appearanced that
+                meet those needs.
+              </p>
+            </div>
+              <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="mission">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Mission</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+              <!-- Modal body -->
+            <div class="modal-body">
+                Improve the quality, efficiency and service strategy of the cosmetics business. To be
+              able to compete effectively Including developing management systems and service systems
+              By modern technology to meet the needs of customers and make customers the highest
+              satisfaction
+            </div>
+              <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="vision">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Vision</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+              <!-- Modal body -->
+            <div class="modal-body">
+                The company is committed to be the modern cosmetic products sales leader with
+              excellent services from managing team with special qualities.
+            </div>
+              <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-light" style="background-color: #ffffff">
+          <a class="navbar-brand" href="#"><b>Arale@ALC</b></a>
           <form class="form-inline w-50">
               <input class="form-control w-100" type="text" placeholder="Search" aria-label="Search">
           </form>
-          <ul class="nav nav-tabs nav-right" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-            </li>
-          </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </nav>
+    </div>
+
     <div class="container-fluid">
       <div id="carouselIndexInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -66,5 +174,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
   </body>
 </html>
