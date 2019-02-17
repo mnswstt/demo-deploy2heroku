@@ -1,179 +1,404 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Arale</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Arale</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
   <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-8 col-md-2 py-4">
-                <h4 class="text-white">About us</h4>
-                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#story">
-                  Story
-                </button>
-                <br/>
-                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#mission">
-                  Mission
-                </button>
-                <br/>
-                <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#vision">
-                  Vision
-                </button>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white h4">Contact</h4>
-                <p>
-                  <div class="text-white">
-                    Business Name: A.L. Cosmetics<br/>
-                    Business Address: 555 Maliwan Road, Khon Kaen, Thailand<br/>
-                    Website: https://demo-arale.herokuapp.com<br/>
-                    Email: arale@ALC.com<br/>
-                    Tel: 099-1593678<br/>
-                  </div>
-                </p>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                  <h4 class="text-white">Follow us</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                        <a href="#" class="text-white">Follow on Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-white">Follow on Facebook</a>
-                    </li>
-                  </ul>
-                </div>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-8 col-md-2 py-4">
+              <h4 class="text-white">About us</h4>
+              <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#story">
+                Story
+              </button>
+              <br />
+              <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#mission">
+                Mission
+              </button>
+              <br />
+              <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#vision">
+                Vision
+              </button>
+              <br />
+              <button type="button" class="btn bg-dark text-white" data-toggle="modal" data-target="#organization">
+                Organization Chart
+              </button>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="story">
-        <div class="modal-dialog">
-          <div class="modal-content">
-              <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Story</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-              <!-- Modal body -->
-            <div class="modal-body">
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white h4">Contact</h4>
               <p>
-                  With inspiration and ideas that want to imbue every lovely woman&#39;s beauty with
-                sparks of creativity and determination to develop good quality products at a comfortable price
-                for every woman who needs to be beautiful in daily. We believe that we truly understand the
-                needs of women. Arale therefore brings the needs of women as a set of products which has
-                been developed for more than 10 types, provided quality, performanced and appearanced that
-                meet those needs.
+                <div class="text-white">
+                  Business Name: A.L. Cosmetics<br />
+                  Business Address: 555 Maliwan Road, Khon Kaen, Thailand<br />
+                  Website: https://demo-arale.herokuapp.com<br />
+                  Email: arale@ALC.com<br />
+                  Tel: 099-1593678<br />
+                </div>
               </p>
             </div>
-              <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Follow us</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-white">Follow on Twitter</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">Follow on Facebook</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="modal fade" id="mission">
-        <div class="modal-dialog">
-          <div class="modal-content">
-              <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Mission</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-              <!-- Modal body -->
-            <div class="modal-body">
-                Improve the quality, efficiency and service strategy of the cosmetics business. To be
-              able to compete effectively Including developing management systems and service systems
-              By modern technology to meet the needs of customers and make customers the highest
-              satisfaction
-            </div>
-              <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="vision">
-        <div class="modal-dialog">
-          <div class="modal-content">
-              <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Vision</h4>
-              <button type="button" class="close" data-dismiss="modal">×</button>
-            </div>
-              <!-- Modal body -->
-            <div class="modal-body">
-                The company is committed to be the modern cosmetic products sales leader with
-              excellent services from managing team with special qualities.
-            </div>
-              <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-light" style="background-color: #ffffff">
-          <a class="navbar-brand" href="#"><b>Arale@ALC</b></a>
-          <form class="form-inline w-50">
-              <input class="form-control w-100" type="text" placeholder="Search" aria-label="Search">
-          </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
     </div>
+    <div class="modal fade" id="story">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Story</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p>
+              With inspiration and ideas that want to imbue every lovely woman&#39;s beauty with
+              sparks of creativity and determination to develop good quality products at a comfortable price
+              for every woman who needs to be beautiful in daily. We believe that we truly understand the
+              needs of women. Arale therefore brings the needs of women as a set of products which has
+              been developed for more than 10 types, provided quality, performanced and appearanced that
+              meet those needs.
+            </p>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mission">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Mission</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            Improve the quality, efficiency and service strategy of the cosmetics business. To be
+            able to compete effectively Including developing management systems and service systems
+            By modern technology to meet the needs of customers and make customers the highest
+            satisfaction
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="vision">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Vision</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            The company is committed to be the modern cosmetic products sales leader with
+            excellent services from managing team with special qualities.
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="organization">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Vision</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img id="myImg" src="assets/Organ1.png" alt="organization" style="width:100%;max-width:1000px">
 
-    <div class="container-fluid">
-      <div id="carouselIndexInterval" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="10000">
-            <img src="assets/carousel1.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="assets/carousel2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/carousel3.png" class="d-block w-100" alt="...">
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselIndexInterval" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselIndexInterval" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
+    <nav class="navbar navbar-light" style="background-color: #ffffff">
+      <a class="navbar-brand" href="#"><b>Arale@ALC</b></a>
+      <form class="form-inline w-50">
+        <input class="form-control w-100" type="text" placeholder="Search" aria-label="Search">
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <div id="carouselIndexInterval" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="assets/carousel1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-interval="2000">
+          <img src="assets/carousel2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/carousel3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselIndexInterval" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselIndexInterval" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br/>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <figure class="card card-product">
+          <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0009.jpg" style="width:300px;height:250px;"></div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">ice cream tint</h4>
+            <p class="desc">An ultra smooth and velvety liquid tint with highly vivid, long lasting
+              color. Its Filler Perfect Technology fills in the creases on your lips to
+              create an instant plumping effect. It is also infused with natural plant
+              oils that locks in moisture on you</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿199</span> <del class="price-old">฿299</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+          <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0005.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">Arale OIL CUSHION FOUNDATION POWDER SPF50+PA+++</h4>
+            <p class="desc">Say &quot;Bye Bye&quot; to oily skin with this impeccable oil control cushion
+              that leaves your face looking matte for 12 hours. It provides medium
+              coverage with a silky smooth and easy to blend texture that feels
+              weightless all day long. It also protects your skin</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿429</span> <del class="price-old">฿559</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+          <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0007.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">NONSTOP lovely MATTE LOCK LIQUID LIP</h4>
+            <p class="desc">This matte liquid lipstick glides on like butter but transforms into a
+              completely matte finish. Its moisturizing formula leaves your lips
+              feeling comfortable, and its intense color pigment lasts all day.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿229</span> <del class="price-old">฿429</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0004.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">NONSTOP lovely 8 HR BLUSH</h4>
+            <p class="desc">A waterproof, silky smooth powder blush that lasts 8 hours on the
+                skin. Its long-wearing property gives you confidence all day long
+                without having to reapply. It&#39;s also highly pigmented, easy to blend,
+                and super lightweight on the skin.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿229</span> <del class="price-old">฿299</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0010.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">Arale OIL CONTROL FOUNDATION POWDER SPF 30 PA+++</h4>
+            <p class="desc">Arale oil Control Foundation Powder SPF30 PA+++
+                The new Super Star Powder
+                Giving you flawless skin in variety shades of light , day and night</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿399</span> <del class="price-old">฿599</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0006.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">JET SET 3 IN 1 MASCARA (WATERPROOF FORMULA)</h4>
+            <p class="desc">A perfect 3 in 1 waterproof mascara with 3-Dimensional effects of
+                lengthening, volumizing and 
+                enhancing curls. It gives a glamorous, false lash effect. It is enriched
+                with Ginseng Root Extract to nourish your lashes. It does not a clump
+                or smudge and is easy to remove with eye makeup remover.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿199</span> <del class="price-old">฿399</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217.jpg" style="width:300px;height:250px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">Power Pink Day to Night palette</h4>
+            <p class="desc">An all-in-one eyeshadow and blush palette that lets you create a
+                variety of looks to fit your mood and occasion. Each shade provides
+                highly pigmented, long-lasting color with an ultra smooth texture
+                that glides effortlessly on your skin.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿179</span> <del class="price-old">฿279</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0001.jpg" style="width:300px;height:350px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">MOISTURE MILK CLARIFYING TONIC</h4>
+            <p class="desc">This Clarifying Tonic is specially formulated to gently yet deeply
+                cleanse and remove impurities, leaving your skin clean, refreshed
+                and supple. It is enriched with Witch Hazel Extract, Elder Flower
+                Extract and Horsetail Extract.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿139</span> <del class="price-old">฿159</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+      <div class="col-md-4">
+        <figure class="card card-product">
+            <div class="img-wrap text-center"><img src="assets/20190217_๑๙๐๒๑๗_0002.jpg" style="width:300px;height:400px;"> </div>
+          <figcaption class="info-wrap">
+            <h4 class="title text-center">MOISTURE MILK NOURISHING NIGHT LOTION (NORMAL-OILY SKIN)</h4>
+            <p class="desc">This night lotion is specially formulated to restore and promote your
+                skin&#39;s normal moisture balance while you sleep. It is easily absorbed,
+                leaving your skin soft, smooth and supple.</p>
+            <div class="rating-wrap">
+              <div class="label-rating">132 reviews</div>
+              <div class="label-rating">154 orders </div>
+            </div> <!-- rating-wrap.// -->
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Order Now</a>
+            <div class="price-wrap h5">
+              <span class="price-new">฿179</span> <del class="price-old">฿199</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+    </div> <!-- row.// -->
+  </div>
+  <!--container.//-->
 
-    <div class="container">
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <h1>Hello Home!</h1>
-        </div>
-        <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
-          <h1>Hello About us!</h1>
-        </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-          <h1>Hello Contact!</h1>
-        </div>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-  </body>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
